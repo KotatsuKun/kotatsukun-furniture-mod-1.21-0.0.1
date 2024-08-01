@@ -1,0 +1,10 @@
+/give Player210 kotatsukun-furniture-mod:marble-1_block
+/giv
+/give Player210 kotatsukun-furniture-mod:paving-1_block
+/gamerule doMobSpawning false
+/kill @a
+/kill @e
+/time set day
+/weather clear
+/time set
+/time set day

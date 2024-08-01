@@ -1,0 +1,24 @@
+{
+
+  "item.kotatsukun-furniture-mod.icon": "Icon",
+  "item.kotatsukun-furniture-mod.tab": "Tab",
+
+  "block.kotatsukun-furniture-mod.wallpaper_1_block": "Red Wallpaper",
+  "block.kotatsukun-furniture-mod.marble_1_block": "White Marble",
+  "block.kotatsukun-furniture-mod.paving_1_block": "Paving Stone",
+  "block.kotatsukun-furniture-mod.wall_1_block": "White Textured Wall",
+  "block.kotatsukun-furniture-mod.wall_2_block": "White Wall",
+  "block.kotatsukun-furniture-mod.roof_1_block": "Roof Tiles",
+
+  "block.kotatsukun-furniture-mod.chair_1_wood": "Oak Wood Chair",
+  "block.kotatsukun-furniture-mod.table_1_wood": "Oak Wood Table",
+  "block.kotatsukun-furniture-mod.sofa": "Left Sofa",
+  "block.kotatsukun.furniture-mod.sofa2": "Middle Sofa",
+  "block.kotatsukun-furniture-mod.sofa3": "Right Sofa",
+  "block.kotatsukun-furniture-mod.sink": "Sink",
+  "block.kotatsukun-furniture-mod.mirror": "Mirror",
+  "block.kotatsukun-furniture-mod.bathtub": "Bathtub",
+
+  "itemgroup.modBlocks": "Blocks",
+  "itemgroup.modFurniture": "Furniture"
+}
