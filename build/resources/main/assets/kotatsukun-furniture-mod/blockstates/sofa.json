@@ -1,7 +1,9 @@
 {
   "variants": {
-    "": {
-      "model": "kotatsukun-furniture-mod:block/sofa"
-    }
+    "facing=north": {"model": "kotatsukun-furniture-mod:block/sofa"},
+    "facing=east": {"model": "kotatsukun-furniture-mod:block/sofa", "y": 90},
+    "facing=south": {"model": "kotatsukun-furniture-mod:block/sofa", "y": 180},
+    "facing=west": {"model": "kotatsukun-furniture-mod:block/sofa", "y": 270}
   }
+
 }

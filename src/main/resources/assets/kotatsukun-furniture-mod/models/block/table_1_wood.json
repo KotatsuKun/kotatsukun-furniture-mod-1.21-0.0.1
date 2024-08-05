@@ -10,7 +10,7 @@
 		{
 			"name": "feet",
 			"from": [7, 1, 7],
-			"to": [9, 13, 9],
+			"to": [9, 15, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 7]},
 			"faces": {
 				"north": {"uv": [0, 0, 2, 12], "texture": "#1"},
@@ -37,9 +37,9 @@
 		},
 		{
 			"name": "sup",
-			"from": [1, 13, 1],
-			"to": [15, 14, 15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 13, 1]},
+			"from": [0, 15, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 12, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 1], "texture": "#0"},
 				"east": {"uv": [0, 0, 16, 1], "texture": "#0"},
@@ -66,7 +66,7 @@
 	},
 	"groups": [
 		{
-			"name": "foot",
+			"name": "VoxelShapes",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [0, 1, 2]

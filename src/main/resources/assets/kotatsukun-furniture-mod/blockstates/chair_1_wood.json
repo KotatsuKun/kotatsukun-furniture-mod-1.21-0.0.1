@@ -1,9 +1,9 @@
 {
   "variants": {
-    "facing=north": {"model": "block/chair_1_wood"},
-    "facing=east": {"model": "block/chair_1_wood", "y": 90},
-    "facing=south": {"model": "block/chair_1_wood", "y": 180},
-    "facing=west": {"model": "block/chair_1_wood", "y": 270}
+    "facing=north": {"model": "kotatsukun-furniture-mod:block/chair_1_wood"},
+    "facing=east": {"model": "kotatsukun-furniture-mod:block/chair_1_wood", "y": 90},
+    "facing=south": {"model": "kotatsukun-furniture-mod:block/chair_1_wood", "y": 180},
+    "facing=west": {"model": "kotatsukun-furniture-mod:block/chair_1_wood", "y": 270}
   }
 
 }

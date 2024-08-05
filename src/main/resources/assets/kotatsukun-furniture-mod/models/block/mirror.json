@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kotatsukun-furniture-mod:block/oak_log",
+		"0": "block/oak_log",
 		"1": "kotatsukun-furniture-mod:block/mirror",
-		"particle": "kotatsukun-furniture-mod:block/oak_log"
+		"particle": "block/oak_log"
 	},
 	"elements": [
 		{
-			"from": [4, 1, 16],
-			"to": [12, 16, 16],
+			"from": [4, 1, 15.5],
+			"to": [12, 16, 15.7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 16]},
 			"faces": {
 				"north": {"uv": [0, 0, 8, 15], "texture": "#1"},

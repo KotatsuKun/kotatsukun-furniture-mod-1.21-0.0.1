@@ -1,7 +1,7 @@
 package net.kotatsu.kun.furnt.mod.block;
 
 import net.kotatsu.kun.furnt.mod.KotatsuKunFurnitureMod;
-import net.kotatsu.kun.furnt.mod.block.custom.ChairBlock;
+import net.kotatsu.kun.furnt.mod.block.custom.*;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -29,20 +29,22 @@ public class ModBlocks {
     public static final Block ROOF_1 = registerBlock("roof_1_block",
             new Block(AbstractBlock.Settings.copy(Blocks.BRICKS)));
 
+
+    //custom blocks
     public static final Block CHAIR_1 = registerBlock("chair_1_wood",
-            new ChairBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new ChairBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block TABLE_1 = registerBlock("table_1_wood",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
+            new TableBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SOFA_1 = registerBlock("sofa",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
+            new LeftSofaBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SOFA_2 = registerBlock("sofa2",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
+            new MiddleSofaBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SOFA_3 = registerBlock("sofa3",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
+            new RightSofaBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SINK = registerBlock("sink",
             new Block(AbstractBlock.Settings.copy(Blocks.CAULDRON).nonOpaque()));
