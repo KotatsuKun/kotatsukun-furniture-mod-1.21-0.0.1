@@ -12,12 +12,18 @@
 
   "block.kotatsukun-furniture-mod.chair_1_wood": "Oak Wood Chair",
   "block.kotatsukun-furniture-mod.table_1_wood": "Oak Wood Table",
-  "block.kotatsukun-furniture-mod.sofa": "Left Sofa",
-  "block.kotatsukun.furniture-mod.sofa2": "Middle Sofa",
-  "block.kotatsukun-furniture-mod.sofa3": "Right Sofa",
+  "block.kotatsukun-furniture-mod.sofa": "Oak Left Sofa",
+  "block.kotatsukun.furniture-mod.sofa2": "Oak Middle Sofa",
+  "block.kotatsukun-furniture-mod.sofa3": "Oak Right Sofa",
+  "block.kotatsukun-furniture-mod.window": "Oak Single Window",
+
   "block.kotatsukun-furniture-mod.sink": "Sink",
   "block.kotatsukun-furniture-mod.mirror": "Mirror",
   "block.kotatsukun-furniture-mod.bathtub": "Bathtub",
+  "block.kotatsukun-furniture-mod.flower_pot_1": "Flower Pot",
+  "block.kotatsukun-furniture-mod.kaonashi": "Kaonashi",
+
+
 
   "itemgroup.modBlocks": "Blocks",
   "itemgroup.modFurniture": "Furniture"

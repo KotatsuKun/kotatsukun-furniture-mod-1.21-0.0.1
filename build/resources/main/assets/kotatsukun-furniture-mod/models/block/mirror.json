@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/oak_log",
-		"1": "block/mirror",
+		"1": "kotatsukun-furniture-mod:block/mirror",
 		"particle": "block/oak_log"
 	},
 	"elements": [

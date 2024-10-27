@@ -36,6 +36,9 @@ public class ModItemsGroup {
                         entries.add(ModBlocks.BATHTUB);
                         entries.add(ModBlocks.MIRROR);
                         entries.add(ModBlocks.SINK);
+                        entries.add(ModBlocks.FLOWERPOT);
+                        entries.add(ModBlocks.WINDOW1);
+                        entries.add(ModBlocks.KAONASHI);
 
                     }).build());
 

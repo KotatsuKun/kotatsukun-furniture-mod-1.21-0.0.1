@@ -2,6 +2,7 @@ package net.kotatsu.kun.furnt.mod.block;
 
 import net.kotatsu.kun.furnt.mod.KotatsuKunFurnitureMod;
 import net.kotatsu.kun.furnt.mod.block.custom.*;
+import net.kotatsu.kun.furnt.mod.block.custom.FlowerPotBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -47,13 +48,27 @@ public class ModBlocks {
             new RightSofaBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SINK = registerBlock("sink",
-            new Block(AbstractBlock.Settings.copy(Blocks.CAULDRON).nonOpaque()));
+            new SinkBlock(AbstractBlock.Settings.copy(Blocks.CAULDRON).nonOpaque()));
 
     public static final Block BATHTUB = registerBlock("bathtub",
-            new Block(AbstractBlock.Settings.copy(Blocks.CAULDRON).nonOpaque()));
+            new BathtubBlock(AbstractBlock.Settings.copy(Blocks.CAULDRON).nonOpaque()));
 
     public static final Block MIRROR = registerBlock("mirror",
-            new Block(AbstractBlock.Settings.copy(Blocks.GLASS).nonOpaque()));
+            new MirrorBlock(AbstractBlock.Settings.copy(Blocks.GLASS).nonOpaque()));
+
+    public static final Block FLOWERPOT = registerBlock("flower_pot_1",
+            new FlowerPotBlock(AbstractBlock.Settings.copy(Blocks.POTTED_POPPY).nonOpaque()));
+
+    public static final Block WINDOW1 = registerBlock("window",
+            new WindowBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE).nonOpaque()));
+
+    public static final Block KAONASHI = registerBlock("kaonashi",
+            new Kaonashi(AbstractBlock.Settings.copy(Blocks.GLASS_PANE).nonOpaque()));
+
+    public static final Block TOTORO = registerBlock("totoro",
+            new Totoro(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).nonOpaque()));
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

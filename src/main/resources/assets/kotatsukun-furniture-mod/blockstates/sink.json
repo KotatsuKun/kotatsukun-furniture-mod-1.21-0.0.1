@@ -1,7 +1,9 @@
 {
   "variants": {
-    "": {
-      "model": "kotatsukun-furniture-mod:block/sink"
-    }
+    "facing=north": {"model": "kotatsukun-furniture-mod:block/sink"},
+    "facing=east": {"model": "kotatsukun-furniture-mod:block/sink", "y": 90},
+    "facing=south": {"model": "kotatsukun-furniture-mod:block/sink", "y": 180},
+    "facing=west": {"model": "kotatsukun-furniture-mod:block/sink", "y": 270}
   }
+
 }

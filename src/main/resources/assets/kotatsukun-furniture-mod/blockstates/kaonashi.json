@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": {"model": "kotatsukun-furniture-mod:block/kaonashi"},
+    "facing=east": {"model": "kotatsukun-furniture-mod:block/kaonashi", "y": 90},
+    "facing=south": {"model": "kotatsukun-furniture-mod:block/kaonashi", "y": 180},
+    "facing=west": {"model": "kotatsukun-furniture-mod:block/kaonashi", "y": 270}
+  }
+
+}

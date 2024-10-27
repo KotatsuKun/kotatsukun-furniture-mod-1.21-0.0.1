@@ -8,3 +8,5 @@
 /weather clear
 /time set
 /time set day
+/gamemode survival
+/gamemode creative
