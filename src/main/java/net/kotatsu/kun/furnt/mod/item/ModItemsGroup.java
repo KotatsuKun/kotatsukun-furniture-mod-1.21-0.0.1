@@ -21,6 +21,8 @@ public class ModItemsGroup {
                         entries.add(ModBlocks.MARBLE_1);
                         entries.add(ModBlocks.PAVING_1);
                         entries.add(ModBlocks.ROOF_1);
+                        entries.add(ModBlocks.RED_PILLAR1);
+                        entries.add(ModBlocks.RED_PILLAR2);
 
                     }).build());
 
@@ -39,6 +41,7 @@ public class ModItemsGroup {
                         entries.add(ModBlocks.FLOWERPOT);
                         entries.add(ModBlocks.WINDOW1);
                         entries.add(ModBlocks.KAONASHI);
+                        entries.add(ModBlocks.TOTORO);
 
                     }).build());
 

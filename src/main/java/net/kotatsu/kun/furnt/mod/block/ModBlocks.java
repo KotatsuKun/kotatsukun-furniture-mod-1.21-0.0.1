@@ -68,6 +68,11 @@ public class ModBlocks {
     public static final Block TOTORO = registerBlock("totoro",
             new Totoro(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).nonOpaque()));
 
+    public static final Block RED_PILLAR1 = registerBlock("red_pillar1",
+            new RedPillarBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).nonOpaque()));
+
+    public static final Block RED_PILLAR2 = registerBlock("red_pillar2",
+            new RedPillarBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block) {
